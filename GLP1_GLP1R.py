@@ -27,4 +27,4 @@ plt.show()
 
 
 # Interpretation: With no drug, eating roughly doubles receptor activation, but with the drug at a typical 1nM semaglutide level, activation is 
-# basically the same at around 73%, showing that semaglutide drives most of the receptor activation, regardless of whether the person has eaten or not.
+# at a similat level of around 73%, showing that semaglutide drives most of the receptor activation, regardless of whether the person has eaten or not.
