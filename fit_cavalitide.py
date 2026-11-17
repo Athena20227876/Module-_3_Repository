@@ -9,7 +9,7 @@ from scipy.optimize import curve_fit
 def Fact(L1, L2, Kd1, Kd2):
     """Fraction of active receptors with two agonists competing for one receptor.
     L1, Kd1 = GLP1 (natual ligand); L2, Kd2 = Cavalitide (drug being tested)"""
-    return (Kd2*L1 + Kd1*L2)/(Kd2*Kd2 + Kd2*L1 + Kd1*L2)
+    return (Kd2*L1 + Kd1*L2)/(Kd1*Kd2 + Kd2*L1 + Kd1*L2) 
 
 # Step 3: State known parameters
 Kd1 = .17                                                               # GLP1 dissociation constant [nM]
