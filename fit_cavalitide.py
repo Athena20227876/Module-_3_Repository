@@ -45,7 +45,7 @@ print(f"Curve_fit Kd2 = {Kd2_fit:.4f} +/- {Kd2_error:.4f} nM (SSE = {SSE_fit:.4f
 
 Kd_semabrute = .335                                                     # Values obtained from semaglutidePK.py file Approach 1
 Kd_semabrute_SSE = .0047                                                # Values obtained from semaglutidePK.py file Approach 1
-Cav_vs_sema_brute = Kd_semabrute / Kd2_fit
+Cav_vs_sema_brute = (Kd_semabrute / Kd2_fit)
 
 Kd_semacurvefit = .350                                                  # Values obtained from semaglutidePK.py file Approach 2
 Kd_semacurvefit_SSE = .0044                                             # Values obtained from semaglutidePK.py file Approach 2
